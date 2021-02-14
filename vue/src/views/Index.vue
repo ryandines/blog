@@ -4,7 +4,9 @@
       <sp-sign-in />
       <sp-bank-balances />
       <sp-token-send />
+      <sp-type-form path="example.blog.blog" type="post" :fields="[ ['creator', 1, 'string'] , ['title', 2, 'string'] , ['body', 3, 'string'] ]" />
       <!-- this line is used by starport scaffolding # 4 -->
+		<sp-type-form path="example.blog.blog" type="comment" :fields="[ ['creator', 1, 'string'] , ['body', 2, 'string'] , ['postID', 3, 'string'] ]" />
     </div>
   </div>
 </template>
