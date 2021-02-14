@@ -3,7 +3,6 @@ package example.blog.blog;
 
 option go_package = "github.com/example/blog/x/blog/types";
 
-import "gogoproto/gogo.proto";
 
 message Post {
   string creator = 1;
